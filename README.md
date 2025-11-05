@@ -1,5 +1,6 @@
-# circuitos-logisim
-## 4-bit-Adder
+# Circuitos-logisim
+
+## 4-bit-Adder:
 
 ## Entradas:
 - A[3:0] - Vetor de 4 bits representando o primeiro operando da soma.  
@@ -24,3 +25,13 @@ Ele gera o bit S0 e o carry C1 , que é passado para o próximo estágio.
 O processo se repete para os demais bits propagando o Carry.  
 O último somador gera S3 e o carry out Cout.
 
+
+## Half subtractor:
+
+# Entradas
+- A: Minuendo
+- B: Subtraendo de A
+
+# Saidas
+- Diff: Valor que vai resultar na subtração de A e de B
+- Borrow: Valor que sera emprestado caso a cada de unidades do B seja maior que a do A
